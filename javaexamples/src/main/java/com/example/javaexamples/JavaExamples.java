@@ -6,10 +6,12 @@ public class JavaExamples {
 		//swapNumbers(4, 6);
 	}
 
+	// поменять значения переменных x и y, не используя дополнительных переменных
 	public static void swapNumbersWithoutVariables(int x, int y) {
 
 	}
 
+	// вычислить сумму и разницу x и y
 	public static void sumAndSubNumbers(int x, int y) {
 		System.out.println("x = " + x);
 		System.out.println("y = " + y);
@@ -19,6 +21,7 @@ public class JavaExamples {
 		System.out.println(w);
 	}
 
+	// поменять значения местами
 	public static void swapNumbers(int x, int y) {
 		System.out.println("x = " + x);
 		System.out.println("y = " + y);
