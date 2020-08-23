@@ -4,11 +4,18 @@ public class JavaExamples {
 	public static void main(String[] args) {
 		//sumAndSubNumbers(  6,  4);
 		//swapNumbers(4, 6);
+		swapNumbersWithoutVariables( 6, 4 );
 	}
 
 	// поменять значения переменных x и y, не используя дополнительных переменных
 	public static void swapNumbersWithoutVariables(int x, int y) {
-
+		System.out.println("x = " + x);
+		System.out.println("y = " + y);
+		x=x+y;
+		y=x-y;
+		x=x-y;
+		System.out.println(x);
+		System.out.println(y);
 	}
 
 	// вычислить сумму и разницу x и y
