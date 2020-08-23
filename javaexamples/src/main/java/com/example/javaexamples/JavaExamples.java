@@ -2,9 +2,18 @@ package com.example.javaexamples;
 
 public class JavaExamples {
 	public static void main(String[] args) {
+		increment( 6);
+		//swapNumbersWithoutVariables( 6, 4 );
 		//sumAndSubNumbers(  6,  4);
 		//swapNumbers(4, 6);
-		swapNumbersWithoutVariables( 6, 4 );
+	}
+
+	public static void increment(int x) {
+		int y;
+		y=x++;
+		System.out.println(y);
+		y=++x;
+		System.out.println(y);
 	}
 
 	// поменять значения переменных x и y, не используя дополнительных переменных
