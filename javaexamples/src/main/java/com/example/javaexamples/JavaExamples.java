@@ -2,11 +2,17 @@ package com.example.javaexamples;
 
 public class JavaExamples {
 	public static void main(String[] args) {
-		typeCharOperation();
+		roundingError();
+		//typeCharOperation();
 		//increment( 6);
 		//swapNumbersWithoutVariables( 6, 4 );
 		//sumAndSubNumbers(  6,  4);
 		//swapNumbers(4, 6);
+	}
+
+	public static void roundingError() {
+		float x = 1f / 6 + 1f / 6 + 1f / 6 + 1f / 6 + 1f / 6 + 1f / 6;
+		System.out.println(x);
 	}
 
 	public static void typeCharOperation() {
