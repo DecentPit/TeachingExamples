@@ -2,12 +2,15 @@ package com.example.javaexamples;
 
 public class JavaExamples {
 	public static void main(String[] args) {
-		roundingError();
-		//typeCharOperation();
-		//increment( 6);
-		//swapNumbersWithoutVariables( 6, 4 );
-		//sumAndSubNumbers(  6,  4);
-		//swapNumbers(4, 6);
+		odd(10);
+	}
+
+	//определить является чисто четным или нечетным
+	public static void odd(int x) {
+		if (x % 2 == 0)
+			System.out.println("число чётное");
+		else
+			System.out.println("число нечетное");
 	}
 
 	public static void roundingError() {
