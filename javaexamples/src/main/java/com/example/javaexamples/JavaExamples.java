@@ -2,7 +2,32 @@ package com.example.javaexamples;
 
 public class JavaExamples {
 	public static void main(String[] args) {
-		odd(10);
+		getReversDigits(1241);
+
+	}
+
+	public static void getReversDigits(int x) {
+		int z = x;
+		int i = 0;
+		while (z != 0) {
+			i++;
+			z = z / 10;
+		}
+		System.out.println(i);
+		while (i > 0) {
+			int d = (int) Math.pow(10, i - 1);
+			System.out.println(x / d);
+			x = x % d;
+			i = i - 1;
+		}
+	}
+
+	//для числа определить его разряд единиц
+	public static void getDigits(int x) {
+		while (x != 0) {
+			System.out.println(x % 10);
+			x = x / 10;
+		}
 	}
 
 	//определить является чисто четным или нечетным
